@@ -1,0 +1,12 @@
+type Comment @model {
+  id: ID!
+  text: String!
+}
+
+type Todo @model {
+  id: ID!
+  name: String!
+  description: String
+  done: Boolean!
+  list: [String!]
+}

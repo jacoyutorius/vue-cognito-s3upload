@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "jquery": true
+  },
+  "extends": "eslint:recommended",
+  "globals": {},
+  "rules": {
+    "no-console": "off",
+    "no-extra-semi": "warn",
+    "no-undef": "warn",
+    "quotes": ["warn", "single"],
+    "space-before-blocks": ["warn", {
+      "functions": "always"
+    }]
+  },
+  "parserOptions": {
+    "ecmaVersion": 2015,
+    "sourceType": "module"
+  }
+}

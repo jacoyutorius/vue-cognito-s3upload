@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "vuecognitoauth",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito81bd255a",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "schemaGraphql": "s3://vuecognitoauth-20181216114151-deployment/amplify-appsync-files/schema.graphql.1545320850480",
+    "ResolverBucket": "vuecognitoauth-20181216114151-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1545320850480"
+}

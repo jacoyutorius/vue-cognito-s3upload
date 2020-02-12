@@ -1,0 +1,20 @@
+{
+    "projectName": "vuecognitoauth",
+    "projectPath": "/Users/yuto-ogi/Work/vue.js/vue-cognito-auth",
+    "defaultEditor": "code",
+    "frontendHandler": {
+        "javascript": "/Users/yuto-ogi/.config/yarn/global/node_modules/amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "vue",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "dist",
+            "BuildCommand": "yarn build",
+            "StartCommand": "yarn serve"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/Users/yuto-ogi/.config/yarn/global/node_modules/amplify-provider-awscloudformation"
+    }
+}

@@ -1,0 +1,16 @@
+projects:
+  vuecognitoauth:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        graphQLApiId: ptkcw2nrrrdvhflj6npc62aezq
+      endpoints:
+        prod: >-
+          https://lnweekowsfe7bigoovop2htm2u.appsync-api.ap-northeast-1.amazonaws.com/graphql

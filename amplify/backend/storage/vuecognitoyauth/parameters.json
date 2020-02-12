@@ -1,0 +1,9 @@
+{
+    "bucketName": "vuecognitoauth7802a92576ae4dffbc3048b6fee9c9c2",
+    "authPolicyName": "s3_amplify_82ca5c3e",
+    "unauthPolicyName": "s3_amplify_82ca5c3e",
+    "authRoleName": "vuecognitoauth-20181216114151-authRole",
+    "unauthRoleName": "vuecognitoauth-20181216114151-unauthRole",
+    "authPermissions": "rw",
+    "unauthPermissions": ""
+}
