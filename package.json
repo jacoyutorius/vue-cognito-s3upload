@@ -10,7 +10,7 @@
   "dependencies": {
     "aws-amplify": "^1.1.17",
     "aws-amplify-vue": "^0.2.4",
-    "bootstrap-vue": "^2.0.0-rc.11",
+    "bootstrap-vue": "^2.0.0-rc.12",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
